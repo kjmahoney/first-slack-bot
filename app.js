@@ -43,7 +43,7 @@ const exclamArray = [
 const sentenceArray = [
   "I KNOW youve been talking behind my back",
   "haters gonna hate",
-  "your just made you aint got these lips",
+  "ur just made you aint got these lips",
   "I wasnt gonna say it but you peaked a LONNNNG time ago",
   "thats not what you said when you called me crying last Saturday",
   "im callin ron to come drop your ass",
@@ -54,7 +54,8 @@ const sentenceArray = [
   "I wasnt gonna say it but you owe me cigarettes",
   "Cherry OUT",
   "ur just mad no one follows ur RINSTA",
-  "ur lucky im on house arrest right now"
+  "ur lucky im on house arrest right now",
+  "im blockin ur TRASH on facebook",
 ]
 
 const getRandomInt = (max) => {
@@ -83,5 +84,9 @@ app.get('/post', (req,res, next) => {
 
   let userName = req.body.user_name;
 
-  return res.status(200).json(`${exclamWord} ${userName}, ${sentenceWord}` );
+  let botPayload = {
+    text: `${exclamWord} ${userName}, ${sentenceWord}`
+  }
+
+  return res.status(200).json(botPayload);
 })
