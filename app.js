@@ -75,7 +75,7 @@ app.get('/cherry', (req,res, next) => {
   res.status(200).json(`${exclamWord} ${userName}, ${sentenceWord}` );
 })
 
-app.get('/post', (req,res, next) => {
+app.post('/cherry', (req,res, next) => {
   let exclamNumber = getRandomInt(exclamArray.length)
   let exclamWord = exclamArray[exclamNumber]
 
