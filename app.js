@@ -32,15 +32,23 @@ app.post('/hello', (req,res, next) => {
 //
 const exclamArray = [
   "Oh helllll no",
-  "That best not be my name I see",
-  "Save your trash",
+  "I KNOW u aint talkin about me",
+  "Save ur trash",
   "LOLOLOLOL",
-  "OH ive HAD it with your shit",
+  "OH ive HAD it with uur shit",
   "fjck you",
   "fuck you",
   "Oh i dont BELIEVE this",
   "Wow REALLLY!",
-  ""
+  "Say that to my face",
+  "👏👏👏👏👏",
+  "GUESS WHAT?!",
+  "helllll no",
+  "Save your shit",
+  "Go to HELL",
+  "NOT LISTENING",
+  "Stuff your shit",
+  "OH WHATS THAT?!",
 ]
 
 const sentenceArray = [
@@ -48,7 +56,7 @@ const sentenceArray = [
   "haters gonna hate",
   "ur just made you aint got these lips",
   "I wasnt gonna say it but you peaked a LONNNNG time ago",
-  "thats not what you said when you called me crying last Saturday",
+  "thats not what you said when YOU called ME crying last Saturday",
   "im callin ron to come drop your ass",
   "you look like a slut when you wear makeup",
   "ur just mad no one looks at your ass",
@@ -63,7 +71,13 @@ const sentenceArray = [
   "i dont have time for this, im shakin it tonight",
   "dont call me no more",
   "ill firebomb your house, dont think i wont",
-  "GUESS WHAT?! Im BLOCKING your number",
+  "dont call me no more, your number is BLOCKED",
+  "at least im not the one sleeping with my boss",
+  "thats not what you said when you BEGGED me for a handy",
+  "wasnt gonna say it, but everyone knows you got work done, and it looks BAD",
+  "everyone on here knows ur just mad Ron picked ME",
+  "I KNOW youve been goin to Dirty Bar without me",
+  "Im not the one who blew the bouncer to get into Dirty Bar, wasnt gonna say it 🤷",
 ]
 
 const getRandomInt = (max) => {
