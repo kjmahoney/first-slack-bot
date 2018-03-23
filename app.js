@@ -74,7 +74,7 @@ const sentenceArray = [
   "at least im not the one sleeping with my boss",
   "thats not what you said when you BEGGED me for a handy",
   "wasnt gonna say it, but everyone knows you got work done, and it looks BAD",
-  "everyone on here knows ur just mad Ron picked ME",
+  "everyone on here knows u cry on the way to work, sorry not sorry",
   "I KNOW youve been goin to Dirty Bar without me",
   "Im not the one who blew the bouncer to get into Dirty Bar, wasnt gonna say it 🤷",
 ]
