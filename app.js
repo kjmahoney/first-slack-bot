@@ -53,7 +53,6 @@ const exclamArray = [
 
 const sentenceArray = [
   "I KNOW youve been talking behind my back",
-  "haters gonna hate",
   "ur just made you aint got these lips",
   "I wasnt gonna say it but you peaked a LONNNNG time ago",
   "thats not what you said when YOU called ME crying last Saturday",
