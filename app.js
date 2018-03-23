@@ -68,7 +68,7 @@ const sentenceArray = [
   "ur LUCKY im on house arrest right now",
   "im blockin ur TRASH on facebook",
   "i dont have time for this, im shakin it tonight",
-  "dont call me no more",
+  "dont call me no more, phone is IN THE TRASH",
   "ill firebomb your house, dont think i wont",
   "dont call me no more, your number is BLOCKED",
   "at least im not the one sleeping with my boss",
