@@ -32,6 +32,7 @@ app.post('/hello', (req,res, next) => {
 //
 const exclamArray = [
   "oh helllll no",
+  "HELL no",
   "I KNOW u aint talkin about me",
   "save ur trash",
   "LOLOLOLOL",
