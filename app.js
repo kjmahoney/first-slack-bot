@@ -31,24 +31,24 @@ app.post('/hello', (req,res, next) => {
 //first one says, hell no i know you aint talking behind my back"
 //
 const exclamArray = [
-  "Oh helllll no",
+  "oh helllll no",
   "I KNOW u aint talkin about me",
-  "Save ur trash",
+  "save ur trash",
   "LOLOLOLOL",
   "OH ive HAD it with uur shit",
   "fjck you",
   "fuck you",
   "Oh i dont BELIEVE this",
-  "Wow REALLLY!",
+  "WOW REALLLY",
   "Say that to my face",
   "👏👏👏👏👏",
-  "GUESS WHAT?!",
+  "GUESS WHAT",
   "helllll no",
   "Save your shit",
-  "Go to HELL",
+  "Go to hell",
   "NOT LISTENING",
   "Stuff your shit",
-  "OH WHATS THAT?!",
+  "OH WHATS THAT",
 ]
 
 const sentenceArray = [
@@ -92,6 +92,13 @@ app.get('/cherry', (req,res, next) => {
 
   let userName = "kevin"
 
+  if (exclamWord == "OH WHATS THAT" ||
+      exclamWord == "NOT LISTENING" ||
+      exclamWord == "GUESS WHAT" ||
+      exclamWord == "WOW REALLLY!") {
+    userName = userName.toUpperCase();
+  }
+
   //remember to add return here
   res.status(200).json(`${exclamWord} ${userName}, ${sentenceWord}` );
 })
@@ -104,6 +111,13 @@ app.post('/cherry', (req,res, next) => {
   let sentenceWord = sentenceArray[sentenceNumber]
 
   let userName = req.body.user_name;
+
+  if (exclamWord == "OH WHATS THAT" ||
+      exclamWord == "NOT LISTENING" ||
+      exclamWord == "GUESS WHAT" ||
+      exclamWord == "WOW REALLLY") {
+    userName = userName.toUpperCase();
+  }
 
   let botPayload = {
     text: `${exclamWord} ${userName}, ${sentenceWord}`
