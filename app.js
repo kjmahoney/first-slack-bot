@@ -38,6 +38,9 @@ const exclamArray = [
   "OH ive HAD it with your shit",
   "fjck you",
   "fuck you",
+  "Oh i dont BELIEVE this",
+  "Wow REALLLY!",
+  ""
 ]
 
 const sentenceArray = [
@@ -50,12 +53,17 @@ const sentenceArray = [
   "you look like a slut when you wear makeup",
   "ur just mad no one looks at your ass",
   "im gonna cut you",
+  "I wasnt gonna say it, but I KNOW youve been stealin my meds",
   "for a second i thought i liked you",
   "I wasnt gonna say it but you owe me cigarettes",
   "Cherry OUT",
   "ur just mad no one follows ur RINSTA",
-  "ur lucky im on house arrest right now",
+  "ur LUCKY im on house arrest right now",
   "im blockin ur TRASH on facebook",
+  "i dont have time for this, im shakin it tonight",
+  "dont call me no more",
+  "ill firebomb your house, dont think i wont",
+  "GUESS WHAT?! Im BLOCKING your number",
 ]
 
 const getRandomInt = (max) => {
