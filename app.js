@@ -27,3 +27,61 @@ app.post('/hello', (req,res, next) => {
     return res.status(200).end();
   }
 })
+
+//first one says, hell no i know you aint talking behind my back"
+//
+const exclamArray = [
+  "Oh helllll no",
+  "That best not be my name I see",
+  "Save your trash",
+  "LOLOLOLOL",
+  "OH ive HAD it with your shit",
+  "fjck you",
+  "fuck you",
+]
+
+const sentenceArray = [
+  "I KNOW youve been talking behind my back",
+  "haters gonna hate",
+  "your just made you aint got these lips",
+  "I wasnt gonna say it but you peaked a LONNNNG time ago",
+  "thats not what you said when you called me crying last Saturday",
+  "im callin ron to come drop your ass",
+  "you look like a slut when you wear makeup",
+  "ur just mad no one looks at your ass",
+  "im gonna cut you",
+  "for a second i thought i liked you",
+  "I wasnt gonna say it but you owe me cigarettes",
+  "Cherry OUT",
+  "ur just mad no one follows ur RINSTA",
+  "ur lucky im on house arrest right now"
+]
+
+const getRandomInt = (max) => {
+  return Math.floor(Math.random() * Math.floor(max))
+}
+//for testing
+app.get('/cherry', (req,res, next) => {
+  let exclamNumber = getRandomInt(exclamArray.length)
+  let exclamWord = exclamArray[exclamNumber]
+
+  let sentenceNumber = getRandomInt(sentenceArray.length)
+  let sentenceWord = sentenceArray[sentenceNumber]
+
+  let userName = "kevin"
+
+  //remember to add return here
+  res.status(200).json(`${exclamWord} ${userName}, ${sentenceWord}` );
+})
+
+app.get('/post', (req,res, next) => {
+  let exclamNumber = getRandomInt(exclamArray.length)
+  let exclamWord = exclamArray[exclamNumber]
+
+  let sentenceNumber = getRandomInt(sentenceArray.length)
+  let sentenceWord = sentenceArray[sentenceNumber]
+
+  let userName = req.body.user_name;
+
+  return res.status(200).json(`${exclamWord} ${userName}, ${sentenceWord}` );
+})
