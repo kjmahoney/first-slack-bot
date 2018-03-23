@@ -19,7 +19,7 @@ app.post('/hello', (req,res, next) => {
   let userName = req.body.user_name;
   userName = userName.charAt(0).toUpperCase() + userName.slice(1);
   let botPayload = {
-    text: 'Hello ' +userName
+    text: 'Helloooooo ' +userName
   }
   if (userName !== 'Slackbot') {
     return res.status(200).json(botPayload);
