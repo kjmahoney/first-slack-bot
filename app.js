@@ -35,6 +35,8 @@ const exclamArray = [
   "NOT LISTENING",
   "Stuff your shit",
   "OH WHATS THAT",
+  "WOW",
+  "REAL NICE",
 ]
 
 const sentenceArray = [
@@ -47,15 +49,15 @@ const sentenceArray = [
   "ur just mad no one looks at your ass",
   "im gonna cut you",
   "I wasnt gonna say it, but I KNOW youve been stealin my meds",
-  "for a second i thought i liked you",
-  "I wasnt gonna say it but you owe me cigarettes",
+  "for a second i thought i liked you. THEN I WOKE UP",
+  "coming from the person who never paid me back for cigarettes. CLASSY",
   "Cherry OUT",
   "ur just mad no one follows ur RINSTA",
   "ur LUCKY im on house arrest right now",
   "im blockin ur TRASH on facebook",
   "i dont have time for this, im shakin it tonight",
   "dont call me no more, phone is IN THE TRASH",
-  "ill firebomb your house, dont think i wont",
+  "ill firebomb your house, TELL ME I WONT",
   "dont call me no more, your number is BLOCKED",
   "at least im not the one sleeping with my boss",
   "thats not what you said when you BEGGED me for a handy",
@@ -64,6 +66,9 @@ const sentenceArray = [
   "I KNOW youve been goin to Dirty Bar without me",
   "Im not the one who blew the bouncer to get into Dirty Bar, wasnt gonna say it 🤷",
   "u just unvited urself from my birthday. HAVE FUN",
+  "got a newsflash for you. GET A LIFE",
+  "dont bother calling next time you need rons truck, good luck BUYING YOUR OWN",
+  "coming form the person who ACTUALLY USES CONDOMS",
 ]
 
 const getRandomInt = (max) => {
@@ -81,6 +86,7 @@ app.get('/cherry', (req,res, next) => {
 
   if (exclamWord == "OH WHATS THAT" ||
       exclamWord == "NOT LISTENING" ||
+      exclamWord == "WOW" ||
       exclamWord == "GUESS WHAT" ||
       exclamWord == "WOW REALLLY!") {
     userName = userName.toUpperCase();
@@ -101,6 +107,8 @@ app.post('/cherry', (req,res, next) => {
 
   if (exclamWord == "OH WHATS THAT" ||
       exclamWord == "NOT LISTENING" ||
+      exclamWord == "WOW" ||
+      exclamWord == "REAL NICE" ||
       exclamWord == "GUESS WHAT" ||
       exclamWord == "WOW REALLLY") {
     userName = userName.toUpperCase();
