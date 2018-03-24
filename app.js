@@ -63,6 +63,7 @@ const sentenceArray = [
   "everyone on here knows u cry on the way to work, sorry not sorry",
   "I KNOW youve been goin to Dirty Bar without me",
   "Im not the one who blew the bouncer to get into Dirty Bar, wasnt gonna say it 🤷",
+  "u just unvited urself from my birthday. HAVE FUN",
 ]
 
 const getRandomInt = (max) => {
