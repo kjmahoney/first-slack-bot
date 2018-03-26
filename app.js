@@ -113,12 +113,20 @@ app.post('/cherry', (req,res, next) => {
     userName = "kaelan"
   }
 
-  if (userName == "doodyman") {
-    userName = "daddy dick sauce"
+  if (userName == "ryankrull") {
+    userName = "ryan"
   }
 
-  if (userName == "kevin") {
-    userName = "sugar baby"
+  if (userName == "mksymes") {
+    userName = "kate"
+  }
+
+  if (userName == "M.C.") {
+    userName = "marky"
+  }
+
+  if (userName == "doodyman") {
+    userName = "daddy dick sauce"
   }
 
   if (exclamWord == "OH WHATS THAT" ||
