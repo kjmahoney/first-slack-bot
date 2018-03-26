@@ -105,6 +105,18 @@ app.post('/cherry', (req,res, next) => {
 
   let userName = req.body.user_name;
 
+  if (userName == "jacipulice") {
+    username = "jaci"
+  }
+
+  if (userName == "kaelansullivan") {
+    username = "kaelan"
+  }
+
+  if (userName == "kevin") {
+    username = "sugar baby"
+  }
+
   if (exclamWord == "OH WHATS THAT" ||
       exclamWord == "NOT LISTENING" ||
       exclamWord == "WOW" ||
