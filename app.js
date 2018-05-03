@@ -132,7 +132,7 @@ app.post('/cherry', (req,res, next) => {
   }
 
   if (userName == "doodyman") {
-    userName = "daddy dick sauce"
+    userName = "doody"
   }
 
   if (exclamWord == "OH WHATS THAT" ||
