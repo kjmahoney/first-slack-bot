@@ -77,7 +77,8 @@ const sentenceArray = [
   "coming from the person who ACTUALLY USES CONDOMS",
   "why dont you tell everyone about the time you went to the doctor for gono, OOPS",
   "i dont need this, ive got rons DICK waiting for me at home",
-  "i dont have time for you, ive got dicks LINED UP out the door",
+  "i dont have time for you, ive got DICKS LINED UP out the door",
+  "i saw you at duccinis without me btw. Oh and you looked like a SLUT",
 ]
 
 const getRandomInt = (max) => {
