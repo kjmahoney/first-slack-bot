@@ -55,7 +55,7 @@ const sentenceArray = [
   "you look like a slut when you wear makeup",
   "u WISH people looked at your ass",
   "im gonna cut you",
-  "I wasnt gonna say it, but I KNOW youve been stealin my pills",
+  "I wasnt gonna say it, but I KNOW youve been stealin my gono pills",
   "for a second i thought i liked you. THEN I WOKE UP",
   "coming from the person who never paid me back for cigarettes. CLASSY",
   "Cherry OUT",
@@ -79,6 +79,10 @@ const sentenceArray = [
   "i dont need this, ive got rons DICK waiting for me at home",
   "i dont have time for you, ive got DICKS LINED UP out the door",
   "i saw you at duccinis without me btw. Oh and you looked like a SLUT",
+  "sure let me stop what im doing and listen to your TRASH",
+  "why dont you leave a message and ILL GET BACK TO YOU NEVER",
+  "wasnt goona say it but that lipstick isnt doing you any favors sweetie. SORRY NOT SORRY",
+  "i dont have to play your games",
 ]
 
 const getRandomInt = (max) => {
