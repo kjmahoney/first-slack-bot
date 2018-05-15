@@ -40,6 +40,7 @@ const exclamArray = [
   "OH WHATS THAT",
   "WOW",
   "REAL NICE",
+  'dont play me',
 ]
 
 const sentenceArray = [
