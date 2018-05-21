@@ -95,6 +95,7 @@ const sentenceArray = [
 const getRandomInt = (max) => {
   return Math.floor(Math.random() * Math.floor(max))
 }
+
 //for testing
 app.get('/cherry', (req,res, next) => {
   let exclamNumber = getRandomInt(exclamArray.length)
