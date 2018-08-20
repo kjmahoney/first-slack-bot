@@ -87,7 +87,7 @@ const sentenceArray = [
   "wasnt goona say it but that lipstick isnt doing you any favors sweetie. SORRY NOT SORRY",
   "last time i checked YOURE the one who begged me to take my top off at tryst. REAL CLASS ACT",
   "next time you snap me, DO ME A FAVOR AND DONT",
-  "everyone on here cares that you didnt have to go to your safety school. OH EXCEPT WE DONT",
+  "everyone on here knows youre not over having to go to your safety school. BETTER LUCK NEXT TIME",
   "being high and mighty all the sudden, well guess what. YOURE TRASH",
   "everyone on here knows you dont put out",
 ]
