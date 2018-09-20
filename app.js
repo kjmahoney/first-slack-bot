@@ -72,7 +72,7 @@ const sentenceArray = [
   "at least im not the one sleeping with my boss",
   "thats not what you said when you BEGGED me for a handy",
   "wasnt gonna say it, but everyone knows you got work done, and it looks BAD",
-  "everyone on here knows u cry on the way to work, sorry not sorry",
+  "everyone on here knows u cry on the way to work, OOPS",
   "Im not the one who blew the bouncer to get into Dirty Bar, wasnt gonna say it 🤷",
   "u just unvited urself from my birthday. HAVE FUN",
   "got a newsflash for you. GET A LIFE",
@@ -87,9 +87,15 @@ const sentenceArray = [
   "wasnt goona say it but that lipstick isnt doing you any favors sweetie. SORRY NOT SORRY",
   "last time i checked YOURE the one who begged me to take my top off at tryst. REAL CLASS ACT",
   "next time you snap me, DO ME A FAVOR AND DONT",
-  "everyone on here knows youre not over having to go to your safety school. BETTER LUCK NEXT TIME",
+  "everyone on here knows youre just mad you settled for your safety school. BETTER LUCK NEXT TIME",
   "being high and mighty all the sudden, well guess what. YOURE TRASH",
   "everyone on here knows you dont put out",
+  "REally loved the time you were asked to sing at Vegas Lounge, OH WAIT THAT WAS ME",
+  "Youre LUCKY i dont have a license right now, or id get in rons truck and RUN YOU DOWN",
+  "Talk to me when Vegas lounge has you on speed dial. NEWSFLASH THEY DONT",
+  "Good luck paying next time you want HBO GO. PASSWORD CHANGED",
+  "Remind me next time you go to spa world. I WONT BE THERE",
+  "YOUre lecturing me? Why dont you go back to your SAFETY SCHOOL",
 ]
 
 const getRandomInt = (max) => {
