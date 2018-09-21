@@ -167,6 +167,7 @@ app.post('/cherry', (req,res, next) => {
   }
 
   let botPayload = {
+    response_type: "in_channel",
     text: `${exclamWord} ${userName}, ${sentenceWord}`
   }
 
