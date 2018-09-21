@@ -93,9 +93,10 @@ const sentenceArray = [
   "REally loved the time you were asked to sing at Vegas Lounge, OH WAIT THAT WAS ME",
   "Youre LUCKY i dont have a license right now, or id get in rons truck and RUN YOU DOWN",
   "Talk to me when Vegas lounge has you on speed dial. NEWSFLASH THEY DONT",
-  "Good luck paying next time you want HBO GO. PASSWORD CHANGED",
+  "Good luck paying next time you want hbo go. PASSWORD CHANGED",
   "Remind me next time you go to spa world. I WONT BE THERE",
-  "YOUre lecturing me? Why dont you go back to your SAFETY SCHOOL",
+  "YOUre lecturing me? Coming from the person who went to their SAFETY SCHOOL",
+
 ]
 
 const getRandomInt = (max) => {
